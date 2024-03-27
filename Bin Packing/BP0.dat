@@ -1,0 +1,5 @@
+
+mItems = 5; //m oggetti
+nBins = 5; //n contenitori
+weights = [7,5,4,4,2]; //pesi degli oggetti
+Capacity = 10; //capacita dei contenitori

@@ -1,0 +1,19 @@
+NbClients = 11;
+NbLocations = 4; //costi apertura
+OpeningCost = [530, 370, 940, 220]; // fj possono essere separati o no da virgole
+Capacity = [60, 30, 100, 30]; //capacita produttiva
+Demand = [17, 14, 14, 14, 19, 6, 17, 14, 6, 8, 19];
+ShippingCost = [ //costi di distribuzione cij
+	   [68, 30, 60, 34]
+       [14, 58, 39, 27]
+       [5, 64, 54, 40]
+       [77, 20, 94, 57]
+       [52, 36, 41, 16]
+       [96, 66, 134, 96]
+       [49, 39, 37, 14]
+       [87, 60, 127, 89]
+       [68, 26, 64, 35]
+       [43, 43, 32, 10]
+       [81, 30, 105, 67]
+	      ];
+//se nel file dat ho degli elementi che non utilizzo li devo dichiarare

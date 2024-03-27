@@ -1,0 +1,19 @@
+  //PP2.dat
+  //uguale a PP1 ma con scrittura più estesa
+  // Data initialization using index:value association
+
+  Products = {"pliers", "wrenches"};
+  // Constraints of the problem
+  Resources = {"cost", "time"};
+  
+  /* two dimensional array whose element Demand[p][r] represent the demand 
+  of product p for resource r
+  */
+  Demand = #[ 
+  "cost": #["pliers": 1.5 "wrenches": 1]#,
+  "time": #["pliers": 0.001 "wrenches": 0.001]#
+  ]#;
+  // array representing the profit of each product
+  Profit = #["pliers":6 "wrenches":5 ]#;
+  // array representing the availability of budget (cost) and time (plant)
+  Availability = #["cost":18000 "time":14]#;

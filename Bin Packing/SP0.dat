@@ -1,0 +1,20 @@
+
+mitems = 5; //m oggetti
+nbins = 5; //n contenitori
+weights = [7,5,4,4,2]; //pesi degli oggetti
+capacity = 10; //capacita dei contenitori
+npattern = 13; 
+
+Patterns = [[1 0 0 0 0]
+	  [0 1 0 0 0]
+	  [0 0 1 0 0]
+	  [0 0 0 1 0]
+            [0 0 0 0 1]
+            [1 0 0 0 1]
+            [0 1 1 0 0]
+            [0 1 0 1 0]
+            [0 0 1 1 0]
+            [0 1 0 0 1]
+            [0 0 1 0 1]
+            [0 0 0 1 1]
+            [0 0 1 1 1]];

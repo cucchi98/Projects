@@ -1,0 +1,16 @@
+//PP3.dat
+  
+  // Data initialization using integer indeces
+
+  NbProducts = 2;
+  // Constraints of the problem
+  NbResources = 2;
+  
+  /* two dimensional array whose element Demand[p][r] represent the demand 
+  of product p for resource r
+  */
+  Demand = [ [1.5 1] [0.001 0.001] ];
+  // array representing the profit of each product
+  Profit = [6 5 ];
+  // array representing the availability of budget (cost) and time (plant)
+  Availability = [18000 14];
